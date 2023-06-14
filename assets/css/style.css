@@ -1,0 +1,84 @@
+.banner {
+    width: 100%;
+    height: 568px;
+    background-image: url('/assets/images/unsplash_BgZFS8DPg0I.jpg');
+    background-size: auto 75%;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.profileContainer {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.profile {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 6px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+}
+
+.profile img {
+    height: 100%;
+    width: 100%;
+}
+
+.profileAndEdit {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+}
+
+.username {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.2rem;
+    line-height: 33px;
+    color: #404040;
+
+}
+
+.profileAll {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profileAll h3 {
+    padding-top: 80px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 33px;
+    color: #404040;
+}
+.icon{
+    height: 44px !important;
+    width: 44px !important;
+    top: 136px;
+    left: 136px;
+    position: absolute;
+    cursor: pointer;
+}

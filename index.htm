@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/personalInfo.css">
+    <title>Vahid</title>
+</head>
+<body>
+
+    <div class="banner">
+        <div class="profileContainer">
+            <div class="profileAll">
+            <div class="profileAndEdit">
+            <div class="profile">
+            <img src="./assets/images/WhatsApp Image 2023-03-02 at 11.28.12 (1).jpeg" alt="Vahid">
+           
+            
+        </div>
+        <img class="icon" src="./assets/images/Frame 380.svg" alt="icon">
+            <div class="username"><h2>Username</h2></div>
+       
+    </div>
+    <h3>Edit profile</h3>
+</div>
+        </div>
+</div>
+
+
+<section class="personalInfo">
+    <div class="infoConatiner">
+        <div class="information">   <span>Personal information</span> <div class="iconInfo"> <img src="./assets/images/Vector.svg" alt="Icon"></div></div>
+
+    </div>
+    <div id="hiddenInfo">
+        <form>
+
+        <div class="formCont">
+                <label for="name">Name:
+                <input type="text" id="name" name="name">
+            </label>
+                
+                <label for="surname">Surnmae:
+                <input type="text" id="surname" name="surname">
+            </label>
+          
+
+                <label for="email">Mail:
+                <input type="email" id="email" name="email">
+            </label>
+                <label for="password">Your password:
+                <input type="password" id="password" name="password"></input>
+            </label>
+        
+                <input type="submit" value="Submit">
+            </div>
+
+              </form>
+              
+    
+    </div>
+</section>
+
+<script>
+     const hiddenInfo = document.getElementById("hiddenInfo")
+     const iconInfo = document.querySelector(".iconInfo")
+ const info = document.querySelector(".information")
+
+ info.addEventListener("click",()=>{
+  hiddenInfo.classList.toggle("openInfo")
+  iconInfo.classList.toggle("rotated")
+ })
+</script>
+</body>
+
+</html>
